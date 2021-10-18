@@ -1,0 +1,25 @@
+package StudentSimulation;
+
+public class Students {
+		
+	String firstName, lastName, year , course ,section;
+	
+	
+	Students(String firstName, String lastName, String year, String course, String section){
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.year = year;
+		this.course = course;
+		this.section = section;
+	}
+	
+	void studinfo() {
+		System.out.print("Input First Name: ");
+		System.out.print("Input Last Name: ");
+		System.out.print("Input year : ");
+		System.out.print("Input course : ");
+		System.out.print("Input section : ");
+		
+	}
+	
+}

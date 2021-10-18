@@ -1,0 +1,44 @@
+package StudentSimulation;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int size = 0;
+		
+		
+		Scanner s = new Scanner(System.in);
+		
+		
+		Students stud[] = new Students[size];
+
+		System.out.print("Input Index Size: ");
+		int index = s.nextInt();
+		size = index;
+		
+		
+		System.out.print("Input First Name: ");
+		String Fname = s.nextLine();
+		
+		s.nextLine();
+		System.out.print("Input Last Name: ");
+		String Lname = s.nextLine();
+		System.out.println("Input year : ");
+		String Year = s.nextLine();
+		System.out.println("Input course : ");
+		String Course = s.nextLine();
+		System.out.println("Input section : ");
+		String Section = s.nextLine();
+		
+		
+		stud [stud.length] = new Students(Fname, Lname, Year, Course, Section); 
+		
+		
+		
+		
+	
+
+	}
+
+}

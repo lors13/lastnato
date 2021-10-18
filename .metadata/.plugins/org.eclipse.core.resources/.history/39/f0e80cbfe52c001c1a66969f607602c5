@@ -1,0 +1,25 @@
+package StudentSimulation;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int size = 0;
+		
+		Scanner s = new Scanner(System.in);
+		
+		
+		Students stud[] = new Students[size];
+		
+		
+		
+		String Fname = s.nextLine();
+		String Lname = s.nextLine();
+		String Year = s.nextLine();
+		String Course = s.nextLine();
+		String Secion = s.nextLine();
+
+	}
+
+}
